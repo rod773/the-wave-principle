@@ -1,0 +1,15 @@
+Figure 18
+Sometimes, near a point of throw-over, a fifth wave will fail to immediately
+complete, and the fourth wave flattens out before number five starts (see Figure
+18).
+In locating “throw-overs,” a logarithmic scale is highly recommended for those
+charts on which the market, or individual stocks, may be followed by means of
+the weekly price range, whereas an arithmetic scale should be used for daily
+range and hourly charts. At the tops of primary and higher degree movements
+the arithmetic scale is much more likely to produce throw-overs, whereas at the
+bottom of such movements the reverse is true; that is, the logarithmic scale is
+more apt to develop throw-overs. In both cases the arithmetic scale would be
+deceptive, in waves of say 30 points or more. To clearly illustrate one of the
+foregoing statements, a monthly range chart of the 1929-1932 movement of the
+Dow-Jones Industrial Average on both the logarithmic and the arithmetic scales
+is shown in Figure 19.

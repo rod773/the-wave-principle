@@ -1,0 +1,4 @@
+Figure 30
+Extensions of Extensions
+The same rules govern both extensions and extensions of extensions. In Figure
+31 will be found three types of extensions of extensions and the standard type.
