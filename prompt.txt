@@ -1,0 +1,7 @@
+Partiendo de "el principio de la onda.pdf" (libro escaneado con texto encima), ejecuta esta pipeline en orden:
+
+1) Extraer figuras (insertar_figuras.py): detectar captions "Figura N", mapear cada figura a su página/plancha escaneada, recortar la imagen de la figura (con trim de bordes y split por mitad si dos figuras comparten plancha) y guardar en figuras_extraidas/figura_NN.png. Insertar thumbnails de cada figura en las páginas donde el texto la menciona ("Figura N"), eligiendo el mayor hueco libre. Salida: "el principio de la onda - con figuras en linea.pdf".
+
+2) Quitar fondos de color (quitar_fondos.py): en las 19 páginas escaneadas con subrayados/marcas azules, amarillas y cian, eliminar el color de marcado (blanco en zonas claras coloreadas, gris/negro en texto tintado), solo en esas páginas. Salida: "el principio de la onda - final.pdf".
+
+3) Reorganizar (reorganizar.py): reconstruir el PDF desde cero con Times Roman 14 pt, interlineado 17.2, márgenes 64/62 pt, numeración de página (sin numerar portada), portada con la imagen grande de la página 1, limpieza de caracteres ilegibles, unión de líneas en párrafos (corte por hueco vertical > 10 pt, deshacer guiones de fin de línea), detección de títulos (texto mayormente mayúsculas), eliminación de páginas en blanco que solo decían "Figura N", y colocación de cada figura en el punto del texto que la menciona (o en su pie), con tamaño máximo 400×330 pt y pie "Figura N". Fusionar párrafos que continúan entre páginas. Salida: "el principio de la onda - reorganizado.pdf".
